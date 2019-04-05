@@ -36,7 +36,6 @@ Be aware, this api sends requests as many as maximum page counts.
 ```js
 const articles = await client.Article.getAllArticles({
   locale: 'ja', // Optional. Default: ja
-  page: 1, // Optional. Default: 1
   perPage: 30 // Optional. Default: 30
 })
 ```
